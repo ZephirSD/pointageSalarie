@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+section#grid-case{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 100vh;
+    column-gap: 7px;
+    
+}
+
+div.case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    /* background-color: grey; */
+}
+
+div.case:hover{
+    transition: 0.3s ease-in-out;
+    background-size: 103%;
+}
+
+div.case div{
+    background-color: rgba(0, 0, 0, 0.493);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+div.case1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+}
+
+div.case2{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
