@@ -1,9 +1,9 @@
 <?php 
 session_start();
-if(isset($_SESSION['sess_user_id']) != "") {
+if(isset($_SESSION['sess_user_id']) && $_SESSION['sess_user_id'] != "") {
 	
 } else { 
-	header('location:index.php');
+	header('location:http://localhost/pointageSalarie/index.php');
 }
 ?>
 <!DOCTYPE html>
